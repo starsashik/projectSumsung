@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Choice of University</string>
+    <string name="app_name">Выбор Университета</string>
     <string name="home" translatable="false">Домой</string>
     <string name="go_back" translatable="false">Вернуться назад</string>
     <string name="add_to_favorite" translatable="false">В избранное</string>
