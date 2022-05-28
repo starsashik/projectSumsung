@@ -1,2 +1,2 @@
 # projectSumsung
-# use master branche
+# use master branch
