@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.project.Activity.MainActivity2">
+
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/ic_more_vert"
+        app:showAsAction="always"
+        android:title="@string/action_settings">
+
+        <menu tools:context="com.example.project.Activity.MainActivity2">
+            <group android:id="@+id/first_group" android:checkableBehavior="none">
+                <item android:id="@+id/back" android:title="@string/go_back" android:icon="@drawable/arrowback"/>
+                <item android:id="@+id/favor" android:title="@string/add_to_favorite" android:icon="@drawable/ic_bookmark"/>
+                <item android:id="@+id/logout_2" android:title="@string/log_out" android:icon="@drawable/ic_logout" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.503125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/arrowback.xml" value="0.30925925925925923" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_android.xml" value="0.5748717948717949" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_arrow_back.xml" value="0.34074074074074073" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.5838541666666667" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_bookmark.xml" value="0.5682291666666667" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_brush.xml" value="0.5748717948717949" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_canvas.xml" value="0.5748717948717949" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_colorpicker.xml" value="0.5748717948717949" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_export.xml" value="0.5748717948717949" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_fav.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_floppy_disk.xml" value="0.5748717948717949" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_home.xml" value="0.5682291666666667" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_import.xml" value="0.503125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_instruments.xml" value="0.503125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5748717948717949" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_logout.xml" value="0.5748717948717949" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_more_vert.xml" value="0.503125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_note_add.xml" value="0.503125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_paint_brush.xml" value="0.503125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_photo_library.xml" value="0.5748717948717949" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_prof.xml" value="0.5748717948717949" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_redo.xml" value="0.503125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_save.xml" value="0.503125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_search.xml" value="0.503125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.5682291666666667" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_settings.xml" value="0.503125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/ic_undo.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/drawable/separator.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout-v28/row_item.xml" value="0.4578125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/activity_main2.xml" value="0.2495921696574225" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/activity_main3.xml" value="0.2657407407407407" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/content_main.xml" value="0.17714285714285713" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/content_second.xml" value="0.375" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/fragment_favor.xml" value="0.4578125" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/fragment_first.xml" value="0.3160919540229885" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/fragment_home.xml" value="0.15" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/fragment_second.xml" value="0.33" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/fragment_zero.xml" value="0.33" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/layout/row_item.xml" value="0.25" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/menu/menu_button_main.xml" value="0.25" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/menu/menu_main.xml" value="0.3194444444444444" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/menu/menu_main_2.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/layout/activity_main.xml" value="0.2066869300911854" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/layout/activity_main2.xml" value="0.3132137030995106" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/layout/activity_main3.xml" value="0.25" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/layout/content_main.xml" value="0.2066869300911854" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/layout/fragment_favor.xml" value="0.3132137030995106" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/layout/fragment_first.xml" value="0.5677083333333334" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/layout/fragment_home.xml" value="0.3132137030995106" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/layout/fragment_zero.xml" value="0.33" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/layout/row_item.xml" value="0.67" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/menu/menu_button.xml" value="0.31574074074074077" />
+        <entry key="..\:/Users/Sasha/AndroidStudioProjects/project3/app/src/main/res/menu/menu_main_2.xml" value="0.5677083333333334" />
+        <entry key="..\:/Users/Sasha/PycharmProjects/project2/app/src/main/res/drawable/ic_coll_book.xml" value="0.5838541666666667" />
+        <entry key="..\:/Users/Sasha/PycharmProjects/project2/app/src/main/res/drawable/ic_home.xml" value="0.5838541666666667" />
+        <entry key="..\:/Users/Sasha/PycharmProjects/project2/app/src/main/res/layout/activity_main2.xml" value="0.33" />
+        <entry key="..\:/Users/Sasha/PycharmProjects/project2/app/src/main/res/layout/fragment_favor.xml" value="0.4578096947935368" />
+        <entry key="..\:/Users/Sasha/PycharmProjects/project2/app/src/main/res/layout/fragment_first.xml" value="0.5" />
+        <entry key="..\:/Users/Sasha/PycharmProjects/project2/app/src/main/res/layout/fragment_home.xml" value="0.27608915906788245" />
+        <entry key="..\:/Users/Sasha/PycharmProjects/project2/app/src/main/res/menu/menu_button.xml" value="0.558974358974359" />
+        <entry key="..\:/Users/Sasha/PycharmProjects/project2/app/src/main/res/menu/menu_main.xml" value="0.558974358974359" />
+        <entry key="..\:/Users/Sasha/PycharmProjects/project2/app/src/main/res/menu/menu_main_2.xml" value="0.5677083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

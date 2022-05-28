@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.project.Activity.MainActivity2">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/ic_more_vert"
+        app:showAsAction="always"
+        android:title="@string/action_settings">
+
+        <menu tools:context="com.example.project.Activity.MainActivity2">
+        <group android:id="@+id/first_group" android:checkableBehavior="none">
+                <item android:id="@+id/logout" android:title="@string/log_out" android:icon="@drawable/ic_logout" />
+            </group>
+        </menu>
+    </item>
+</menu>

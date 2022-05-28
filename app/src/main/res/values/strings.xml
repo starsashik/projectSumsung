@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Choice of University</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="next2">next2</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="mainName">Выбери университет своей мечты</string>
+    <string name="emailaddress">EmailAddress</string>
+    <string name="password">Password</string>
+    <string name="error_reg_1"><![CDATA[email address must contain <@> and <.>]]></string>
+    <string name="error_reg_2">Password length must be greater than 6</string>
+    <string name="profile">Profile</string>
+    <string name="favourites">Favourites</string>
+    <string name="log_out">Log Out</string>
+    <string name="search">Search</string>
+    <string name="university">University</string>
+    <string name="add_to_favorite">Add to favorite</string>
+    <string name="go_back">Go back</string>
+    <string name="home">Home</string>
+</resources>
