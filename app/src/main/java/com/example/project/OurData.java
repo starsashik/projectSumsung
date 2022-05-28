@@ -1,5 +1,8 @@
 package com.example.project;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class OurData {
     public static String[] title = new String[]{
             "Московский государственный университет имени М.В. Ломоносова",
@@ -90,4 +93,5 @@ public class OurData {
             "https://mpei.ru",
             "https://itmo.ru/ru/"
     };
+    public static Map<String, String> favor = new HashMap<String, String>();
 }

@@ -13,17 +13,20 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.project.Activity.MainActivity2;
+import com.example.project.OurData;
 import com.example.project.R;
 import com.example.project.databinding.FragmentSecondBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SecondFragment extends Fragment {
 
     private FragmentSecondBinding binding;
     private FirebaseAuth mAuth;
+//    FirebaseAuth mAuth = OurData.myAuth;
     private final String TAG = "project";
     private EditText ETemail;
     private EditText ETpassword;
@@ -44,6 +47,7 @@ public class SecondFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         mAuth = FirebaseAuth.getInstance();
+//        OurData.myAuth = mAuth;
 
         ETemail = (EditText) binding.TextEmail2;
         ETpassword = (EditText) binding.TextPassword2;
@@ -78,6 +82,8 @@ public class SecondFragment extends Fragment {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(view.getContext(), "Авторизация успешна", Toast.LENGTH_LONG).show();
+                    FirebaseUser user = mAuth.getInstance().getCurrentUser();
+                    OurData.favor.put(user.getUid(), "");
                     completeLogin(view);
                 } else {
                     Toast.makeText(view.getContext(), "Авторизация провалена", Toast.LENGTH_LONG).show();
