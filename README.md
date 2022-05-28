@@ -1,2 +1,1 @@
 # projectSumsung
-# use master branch
