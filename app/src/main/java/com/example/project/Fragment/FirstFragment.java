@@ -13,20 +13,23 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.project.Activity.MainActivity2;
+import com.example.project.OurData;
 import com.example.project.R;
 import com.example.project.databinding.FragmentFirstBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class FirstFragment extends Fragment {
 
     private FragmentFirstBinding binding;
-    private FirebaseAuth mAuth;
     private final String TAG = "project";
     private EditText ETemail;
     private EditText ETpassword;
+    private FirebaseAuth mAuth;
+//    FirebaseAuth mAuth = OurData.myAuth;
 
     @Override
     public View onCreateView(
@@ -43,6 +46,7 @@ public class FirstFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         mAuth = FirebaseAuth.getInstance();
+//        OurData.myAuth = mAuth;
 
         ETemail = (EditText) binding.TextEmail1;
         ETpassword = (EditText) binding.TextPassword1;
@@ -55,9 +59,9 @@ public class FirstFragment extends Fragment {
                 String password = ETpassword.getText().toString();
                 if (!email.contains("@") && !email.contains(".")) {
                     binding.TextView1.setText(R.string.error_reg_1);
-                }else if (password.length() < 6){
+                } else if (password.length() < 6) {
                     binding.TextView1.setText(R.string.error_reg_2);
-                }else{
+                } else {
                     register(email, password, view);
                 }
 
@@ -79,14 +83,18 @@ public class FirstFragment extends Fragment {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(view.getContext(), "Регистрация успешна", Toast.LENGTH_LONG).show();
+                    FirebaseUser user = mAuth.getInstance().getCurrentUser();
+                    OurData.favor.put(user.getUid(), "");
                     completeRegister(view);
+
                 } else {
                     Toast.makeText(view.getContext(), "Регистрация провалена", Toast.LENGTH_LONG).show();
                 }
             }
         });
     }
-    private void completeRegister(View view){
+
+    private void completeRegister(View view) {
         Intent intent = new Intent(view.getContext(), MainActivity2.class);
         startActivity(intent);
     }
