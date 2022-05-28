@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Choice of University</string>
+    <string name="home" translatable="false">Домой</string>
+    <string name="go_back" translatable="false">Вернуться назад</string>
+    <string name="add_to_favorite" translatable="false">В избранное</string>
+    <string name="university" translatable="false">Университет</string>
+    <string name="search" translatable="false">Поиск</string>
+    <string name="log_out" translatable="false">Выход</string>
+    <string name="favourites" translatable="false">Избранное</string>
+    <string name="profile" translatable="false">Профиль</string>
+    <string name="error_reg_2" translatable="false">Длина пароля должна быть больше 6</string>
+    <string name="error_reg_1" translatable="false">Адресс должен содержать @ и .</string>
+    <string name="password" translatable="false">Пароль</string>
+    <string name="emailaddress" translatable="false">Адресс</string>
+    <string name="mainName" translatable="false">Выбери университет своей мечты</string>
+    <string name="register" translatable="false">Регистрация</string>
+    <string name="log_in" translatable="false">Вход</string>
+    <string name="previous" translatable="false">Предыдущий</string>
+    <string name="next" translatable="false">Следующий</string>
+    <string name="second_fragment_label" translatable="false">Второй фрагмент</string>
+    <string name="first_fragment_label" translatable="false">Первый фрагмент</string>
+    <string name="action_settings" translatable="false">Настройки</string>
+</resources>
